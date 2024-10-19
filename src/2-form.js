@@ -37,7 +37,7 @@ form.addEventListener('submit', (event) => {
 
     console.log({
         email: form.email.value.trim(),
-        message: form.message.value.trim();
+        message: form.message.value.trim()
     });
 
     localStorage.removeItem('feedback-form-state');
